@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Guessing Game</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <main>
+    <div>
+      Translate:
+      <span id="src">
+        The 2019-2020 coronavirus disease pandemic is a pandemic derived from coronavirus disease started in 2019
+        (COVID-19), caused by the coronavirus 2 virus of severe acute respiratory syndrome (SARS-CoV-2).
+      </span>
+    </div>
+
+    <div>
+      Type the next letter:
+      <span id="tgt">
+      </span><span id="blinky">_</span>
+    </div>
+
+    <div>
+      Already guessed:
+      <span id="alreadyGuessed">
+      </span>
+    </div>
+
+    <div>
+      Total wrong guesses:
+      <span id="total">
+      </span>
+    </div>
+  </main>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
